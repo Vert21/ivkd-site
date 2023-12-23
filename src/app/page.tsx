@@ -36,12 +36,7 @@ export default function Home() {
                 Lorem ipsum dolor
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas odio praesentium a dolorum veniam doloremque, expedita
-                iure atque laudantium fugiat deserunt iusto velit nulla harum
-                aliquid! Fugit commodi est et. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Voluptas odio praesentium a
-                dolorum veniam doloremque
+                Некий текст 
               </p>
             </div>
             <div className="flex flex-col gap-4">
