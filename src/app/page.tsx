@@ -1,7 +1,7 @@
 import { YaForm } from "@/components/yaform";
 import { Inter } from "next/font/google";
 import Image from "next/image";
-import sectionOneImage from "public/section1.jpg";
+import sectionOneImage from "../../public/section1.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -102,9 +102,9 @@ export default function Home() {
         id="yform"
         className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-[#93e8d3] text-[#fff]"
       >
-        <script src="https://yastatic.net/s3/frontend/forms/_/embed.js">
+        {/*<script src="https://yastatic.net/s3/frontend/forms/_/embed.js">
         </script>
-        <YaForm />
+        <YaForm /> */}
       </section>
     </div>
   );
