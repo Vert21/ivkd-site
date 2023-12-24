@@ -110,7 +110,7 @@ export default function Home() {
       </section>
       <section
         id="yform"
-        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-[#93e8d3] text-[#fff]"
+        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-white"
       >
         <YaForm />
         <script src="https://yastatic.net/s3/frontend/forms/_/embed.js">
