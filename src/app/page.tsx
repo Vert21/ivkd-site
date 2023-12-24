@@ -1,9 +1,9 @@
 import { YaForm } from "@/components/yaform";
-import { Inter } from "next/font/google";
-import Image from "next/image";
-import sectionOneImage from "../../public/section1.jpg";
 
-const inter = Inter({ subsets: ["latin"] });
+import Image from "next/image";
+import Link from "next/link";
+import sectionOneImage from "../../public/section1.jpg";
+import sectionYaMost from "../../public/section-yamost.jpg"
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
                 Lorem ipsum dolor
               </h1>
               <p>
-                Некий текст 
+                Некий текст
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -94,17 +94,27 @@ export default function Home() {
       </section>
       <section
         id="stream"
-        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-[#222222] text-[#fff]"
+        className="h-[100vh] relative flex flex-col items-center justify-center bg-[#222222] text-[#fff]"
       >
-        STREAM
-      </section>{" "}
+        <Image
+          alt=""
+          width={1920}
+          height={1080}
+          src={sectionYaMost.src}
+          className="h-[100vh] object-cover"
+        /><div className="absolute top-0 left-0 w-[100%] h-[100vh] flex justify-center items-center backdrop-blur-lg bg-gray-500/30">
+            <Link className="text-3xl px-4 py-2 sm:py-8 m-4 bg-white hover:bg-gray-100 text-[#091f2c] rounded-lg text-center" href="https://telemost.yandex.ru/j/14417523326810823546581497604919376022">Присоедениться к видеовстрече</Link> 
+
+        </div>
+
+      </section>
       <section
         id="yform"
         className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-[#93e8d3] text-[#fff]"
       >
-        {/*<script src="https://yastatic.net/s3/frontend/forms/_/embed.js">
+        <YaForm />
+        <script src="https://yastatic.net/s3/frontend/forms/_/embed.js">
         </script>
-        <YaForm /> */}
       </section>
     </div>
   );
