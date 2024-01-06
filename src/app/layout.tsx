@@ -1,11 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://engineer-v-dom.vercel.app"),
   title: "ИНЖЕНЕР В КАЖДЫЙ ДОМ",
   description: "",
   openGraph: {
-    url: "http://localhost:3000",
+    url: "https://engineer-v-dom.vercel.app",
     title: "ИНЖЕНЕР В КАЖДЫЙ ДОМ",
     type: "website",
     images: ["/api/og"],
