@@ -33,7 +33,7 @@ export default function Home() {
       </div>
       <section
         id="event_program"
-        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-[#a288d9] text-[#091f2c]"
+        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-white text-[#091f2c]"
       >
         <div className="text-4xl sm:text-5xl lg:text-6xl  w-full text-center lg:p-4">
           <p>Программа мероприятия</p>
@@ -89,7 +89,7 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-[#f5b1cc] text-[#091f2c]"
+        className="min-h-[100vh] flex flex-col p-8 items-center justify-center bg-white text-[#091f2c]"
       >
         <div className="text-4xl sm:text-5xl lg:text-6xl w-full text-center p-4">
           <p>О проекте "Инженер в каждый дом"</p>
